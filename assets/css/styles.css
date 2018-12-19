@@ -1,0 +1,116 @@
+/*
+		Universal and Global Styles
+		Paragraphs, all paddings and margins, font-families, link color and decorations, body background color, etc
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+.carousel-figure-container {
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+}
+
+.navbar-banner {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+.black-logo {
+	color: #292929;
+}
+.white-logo {
+	color: #F9F9F9;
+}
+
+
+/*
+		Mobile Styles || XS - Small screens
+*/
+/* Mobile Styles */
+@media only screen and (max-width: 576px) {
+  .jumbotron {
+  	display: none;
+  }
+	
+	.jumbotron-mobile,
+	.carousel-inner {
+		display: block;
+		height: 30vh;
+		position: relative;
+		z-index: 1;
+	}
+
+	.desktop-banner-img {
+		height: 30vh;
+	}
+
+	.navbar {
+		padding-top: 0;
+	}
+
+	.navbar-brand {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 3;
+		left: 5;
+		z-index: 5;
+	}
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+	
+	.jumbotron-mobile {
+		display: none;
+	}
+
+  .jumbotron,
+	.carousel-inner {
+		height: 100vh;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
